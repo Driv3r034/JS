@@ -253,6 +253,130 @@ var actualNumber = 5;
 console.log(stringNumber === actualNumber);
 console.log(stringNumber == actualNumber);
 
+console.log(0 == false);
+console.log("false" == false);
+
+var age = 11;
+var accompanied = true;
+if (age >= 12 | accompanied) {
+    console.log('Yes');
+} else {
+    console.log('No');
+};
+
+var myNullVariable = null;
+console.log(myNullVariable);
+
+var myTopThreeDinosaurs = ["Тиранозавр", "Велоцираптор", "Стегозавр"]
+console.log(myTopThreeDinosaurs);
+
+var dinosaurs = [
+    "Тираннозавр",
+    "Велоцираптор",
+    "Стегозавр",
+    "Трицератопс",
+    "Брахиозавр",
+    "Птеранодон",
+    "Апатозавр",
+    "Диплодок",
+    "Компсогнат"
+   ];
+console.log(dinosaurs);
+dinosaurs[0] = "Тираннозавр рекс";
+
+var dinosaurs = [];
+dinosaurs[0] = "Тираннозавр";
+dinosaurs[1] = "Велоцираптор";
+dinosaurs[2] = "Стегозавр";
+dinosaurs[3] = "Трицератопс";
+dinosaurs[4] = "Брахиозавр";
+dinosaurs[5] = "Птеранодон";
+dinosaurs[6] = "Апатозавр";
+dinosaurs[7] = "Диплодок";
+dinosaurs[8] = "Компсогнат";
+console.log(dinosaurs);
+
+dinosaurs[33] = "Филосораптор";
+console.log(dinosaurs);
+
+var dinosaursAndNumbers = [3, "динозавры", ["трицератопс", "стегозавр", 3627.5], 10];
+console.log(dinosaursAndNumbers[2][0]);
+
+var maniacs = ["Якко", "Вакко", "Дот"];
+maniacs[0];
+"Якко"
+maniacs[0];
+"Вакко"
+maniacs[0];
+"Дот"
+console.log(maniacs.length);
+console.log(maniacs.length - 1);
+
+var animals = [];
+animals.push("Кот");
+animals.push("Пёс");
+animals.push("Лама");
+console.log(animals);
+animals.unshift("Мартышка");
+animals.unshift("Белый медведь");
+console.log(animals[0]);
+console.log(animals[2]);
+var animals = ["Белый медведь", "Мартышка", "Кот", "Пёс", "Лама"];
+var lastAnimal = animals.pop();
+console.log(lastAnimal);
+var animals = ["Белый медведь", "Мартышка", "Кот", "Пёс"];
+var lastAnimal = animals.pop();
+console.log(lastAnimal);
+console.log(animals.unshift(lastAnimal));
+console.log(animals);
+var animals = ["Лама", "Белый медведь", "Мартышка", "Кот"];
+var firstAnimal = animals.shift();
+console.log(firstAnimal);
+console.log(animals);
+
+var furryAnimals = ["Альпака", "Кольцехвостый лемур", "Йети"];
+var scallyAnimals = ["Удав", "Годзилла"];
+var furryAndScallyAnimals = furryAnimals.concat(scallyAnimals);
+console.log(furryAnimals);
+console.log(scallyAnimals);   
+console.log(furryAndScallyAnimals);
+var featheretAnimals = ["Ара", "Додо"];
+var allAnimals = furryAnimals.concat(scallyAnimals, featheretAnimals);
+console.log(featheretAnimals);
+console.log(allAnimals);
+
+var colors = ["красный", "зеленый", "синий"];
+console.log(colors);
+console.log(colors.indexOf("синий"));
+console.log(colors.indexOf("зеленый"));
+console.log(colors[2]);
+console.log(colors.indexOf("фиолетовый"));
+
+var insects = ["Пчела", "Муравей", "Пчела", "Пчела", "Муравей"];
+console.log(insects.indexOf("Пчела"));
+
+var boringAnimals = ["Мартышка", "Кот", "Рыба", "Ящерица"];
+console.log(boringAnimals.join());
+console.log(boringAnimals.join(" - "));
+console.log(boringAnimals.join("*"));
+console.log(boringAnimals.join(" и "));
+
+var myNames = ["Николас", "Эндрю", "Максвелл", "Морган"];
+console.log(myNames.join(" "));
+
+var ages = [11, 14,79];
+console.log(ages.join(" "));
+
+
+
+
+
+
+
+
+
+
+
 
 
 
