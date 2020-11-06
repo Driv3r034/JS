@@ -210,7 +210,7 @@ console.log(sillyString);
 var sillyString = "эЙ, кАК деЛа?";
 sillyString[0].toUpperCase() + sillyString.slice(1).toLowerCase();
 console.log(sillyString);
-*/
+
 
 var hadShower = true;
 var hasBackpack = false;
@@ -367,22 +367,73 @@ console.log(myNames.join(" "));
 var ages = [11, 14,79];
 console.log(ages.join(" "));
 
+var landmarks = [];
+landmarks.push("Мой дом");
+landmarks.push("Дорожка к дому");
+landmarks.push("Мигающий фонарь");
+landmarks.push("Протекающий гидрант");
+landmarks.push("Пожарная станция");
+landmarks.push("Приют для кошек");
+landmarks.push("Моя бывшая школа");
+landmarks.push("Дом подруги");
+console.log(landmarks);
+landmarks.pop("Дом подруги");
+landmarks.pop("Моя бывшая школа");
+landmarks.pop("Приют для кошек");
+landmarks.pop("Пожарная станция");
+landmarks.pop("Протекающий гидрант");
+landmarks.pop("Мигающий фонарь");
+landmarks.pop("Дорожка к дому");
+console.log(landmarks);
 
+var loto =  Math.floor(8.472114259933099);
+console.log(loto);
+var loto =  Math.random() * 10;
+console.log(loto);
+var loto =  Math.random() * 20;
+console.log(loto);
 
+var loto1 = Math.floor(Math.random() * 5);
+console.log(loto1);
 
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+console.log(randomWords[randomIndex]);
+console.log(randomWords[Math.floor(Math.random() * 4)]);
 
+*/
 
+var phrases = [
+    "Звучит неплохо", 
+    "Да, это определенно надо сделать", 
+    "Не думаю, что это хорошая идея", 
+    "Может, не сегодня?", 
+    "Компьютер говорит нет"
+];
+console.log(phrases[Math.floor(Math.random() * 5)]);
 
+var randomBodyParts = ["глаз", "рот", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "выхухоль", "мартышка", "мышка"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random() * 5)];
+var randomInsult = "У тебя " + randomBodyPart + " словно " + randomAdjective + " " + randomWord + "!!!";
+console.log(randomInsult);
 
+var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
+console.log(randomWord);
+var randomInsult = ["У тебя", randomBodyPart, "как", randomAdjective, randomWord + "!!!"].join(" ");
+console.log(randomInsult);
 
-
-
-
-
-
-
-
-
+var draznilkaBodys = ["машина", "тачка", "колесница"];
+var draznilkaAdjectives = ["груда железа", "коптилка", "консервная банка"];
+var draznilkaWords = ["приросшая к земле", "шумно ржавеющая", "никуда не годная", "улитка безпанцырная", "требующая замены прокладки, между рулём и сиденьем)"];
+var draznilkaBody = draznilkaBodys[Math.floor(Math.random() * 3)];
+var draznilkaAdjective = draznilkaAdjectives[Math.floor(math.random() * 3)];
+var draznilkaWord = draznilkaWords[Math.floor(Math.random() * 5)];
+var draznilkaInsult = "У тебя", draznilkaBody + "словно" + draznilkaAdjective + draznilkaWord + "!!!";
+console.log(draznilkaInsult);
 
 
 
